@@ -1,0 +1,13 @@
+import java.util.Stack;
+public class stack {
+    public static void main(String[] args){
+        Stack<String> H= new Stack<>();
+        H.push("abc");
+        H.push("cde");
+        H.push("def");
+        System.out.println("values added" + H);
+        H.pop();
+        H.pop();
+        System.out.println("after removing values" + H);
+    }
+}
